@@ -20,3 +20,12 @@ async def clear(ctx, amount=100):
 async def on_ready():
     change_status.start()
     print('ready leroro1')
+    
+@tasks.loop(seconds=300) 
+async def change_status():
+    status = ['pagare ture','distruggere universi','scoparsi lerora','mangiare lojacops'] #stato del bot 
+    await client.change_presence(activity=discord.Game(choice(status)))
+    
+    
+
+client.run('your token') #token del bot -.-
