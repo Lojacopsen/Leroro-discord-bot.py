@@ -61,4 +61,4 @@ async def on_message(message):
         await message.channel.send('*dio time stop*')
 
 
-client.run('your token') #Metti il token del bot
+client.run('your token!') #Metti il token del bot UwU
