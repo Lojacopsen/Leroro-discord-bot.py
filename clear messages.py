@@ -19,7 +19,7 @@ async def clear(ctx, amount=100):
 @client.event
 async def on_ready():
     change_status.start()
-    print('ready leroro1')
+    print('ready leroro1!')
     
 @tasks.loop(seconds=300) 
 async def change_status():
