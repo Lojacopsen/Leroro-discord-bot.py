@@ -1,5 +1,5 @@
 @echo off
-start powershell
+start
 echo before installation you need to have python 3.6 or later, continue?
 pause
 start py -3 -m pip install -U discord.py
