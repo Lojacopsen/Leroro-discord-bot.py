@@ -62,4 +62,3 @@ async def on_message(message):
 
 
 client.run('your token!') #Metti il token del bot UwU
-end
