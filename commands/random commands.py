@@ -16,6 +16,6 @@ async def on_message(message):
         return
 
     if message.content.startswith('Leroro'):
-        await message.channel.send('PREGATEMI SCHIAAAVI')
+        await message.channel.send('PREGATEMI SCHIAAAVI')#it's fun
     
 client.run('your token') #the token -_-
