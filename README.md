@@ -4,3 +4,5 @@ cosa fa questo bot:
 1) cancella messaggi.
 2) cambia stato.
 3) fa naruto, uwu, e jojo's reference.
+
+insomma, è figo
