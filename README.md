@@ -6,3 +6,7 @@ cosa fa questo bot:
 3) fa naruto, uwu, e jojo's reference.
 
 Insomma, è figo.
+
+# Dependencies
+
+`py -3 -m pip install -U discord.py`
