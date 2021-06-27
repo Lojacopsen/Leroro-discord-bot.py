@@ -1,9 +1,6 @@
 import discord
 from discord.ext import commands,tasks
-import random
-from random import choice
-import discord
-from discord.ext import commands
+
 
 @client.event
 async def on_ready():
