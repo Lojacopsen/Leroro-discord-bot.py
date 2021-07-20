@@ -31,8 +31,13 @@ async def on_message(message):
         return
     if message.content.startswith('Leroro'):
         await message.channel.send('PREGATEMI SCHIAAAVI')#it's fun
-    elif message.content.startswith('uwu' or 'UwU'):
+    if message.content.startswith('uwu' or 'UwU'):
         await message.channel.send("{message.author.mention} ma UwU stocazzo")
+    coso = ["cane","porco"]
+    if message.content.startswith('dio'):
+        await message.channel.send(choice(coso))
+    elif message.content.startswith('madonna'):
+        await.message.channel.send('puttana')
     
 
 client.run('your token') #token del bot -.-
